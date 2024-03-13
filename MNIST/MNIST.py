@@ -32,7 +32,7 @@ def modelTrain():
     optimizer = optim.SGD(model.parameters(), lr=0.003)
 
     # 训练模型
-    epochs = 5
+    epochs = 20
     losses = []  # List to store the training loss for each epoch
     for e in range(epochs):
         running_loss = 0
@@ -83,7 +83,7 @@ def modelTrain():
 
 if __name__ == '__main__':
     # 加载模型, 留空为新训练
-    model = 'MNIST/model/mnist_model_2024-03-06_17-10-31.pth'
+    model = ''
     if model == '':
         model = modelTrain()
     else:
