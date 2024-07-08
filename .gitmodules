@@ -1,0 +1,3 @@
+[submodule "DL2024_proj"]
+	path = DL2024_proj
+	url = https://github.com/Myocardial-infarction-Jerry/DL2024_proj.git
